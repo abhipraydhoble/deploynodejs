@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodejs-ecr
-          image: 376476525700.dkr.ecr.us-east-1.amazonaws.com/nodejs-ecr:1.1
+          image: 376476525700.dkr.ecr.us-east-1.amazonaws.com/nodejs-ecr:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
